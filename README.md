@@ -13,10 +13,6 @@ Funcionalidades
 - Página inicial acessível somente após login  
 - Arquivo CSS separado para estilização
 
-Fluxograma
-
-  
-
 Tecnologias utilizadas
 
 - Python 3
