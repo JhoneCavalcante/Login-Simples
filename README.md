@@ -5,11 +5,17 @@ O sistema valida o login de apenas **um usuário cadastrado manualmente no códi
 
 Funcionalidades
 
-- Tela de login com usuário e senha  
+- Tela de login com usuário e senha
+- Cadastrar usuário
+- Alteração de senha  
 - Validação simples no backend em Python  
 - Exibição de mensagem de sucesso ou erro  
 - Página inicial acessível somente após login  
-- Arquivo CSS separado para estilização  
+- Arquivo CSS separado para estilização
+
+Fluxograma
+
+  
 
 Tecnologias utilizadas
 
