@@ -121,3 +121,23 @@ body {
 .registrar-link {
     text-decoration: underline;
 }
+
+footer {
+    background-color: rgb(1, 1, 28);       /* Cor de fundo escura */
+    color: #fff;                  /* Cor do texto branca */
+    text-align: center;           /* Centraliza o texto */
+    padding: 20px 0;              /* Espaçamento em cima e embaixo */
+    position: fixed;              /* Fixa na parte inferior da página */
+    width: 100%;                  /* Ocupa toda a largura */
+    bottom: 0;                    /* Posiciona no final */
+    font-family: "Poppins", sans-serif;
+}
+
+footer a {
+    color: #fff;               /* Cor do link */
+    text-decoration: none;        /* Remove sublinhado */
+}
+
+footer a:hover {
+    text-decoration: underline;   /* Sublinha ao passar o mouse */
+}
