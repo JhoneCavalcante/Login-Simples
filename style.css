@@ -122,6 +122,7 @@ body {
     text-decoration: underline;
 }
 
+
 footer {
     background-color: rgb(1, 1, 28);       /* Cor de fundo escura */
     color: #fff;                  /* Cor do texto branca */
@@ -130,7 +131,7 @@ footer {
     position: fixed;              /* Fixa na parte inferior da página */
     width: 100%;                  /* Ocupa toda a largura */
     bottom: 0;                    /* Posiciona no final */
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;    
 }
 
 footer a {
@@ -141,3 +142,4 @@ footer a {
 footer a:hover {
     text-decoration: underline;   /* Sublinha ao passar o mouse */
 }
+
