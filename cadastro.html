@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">  
-    <title>Criar Nova Senha</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <title>Cadastro de Usuário</title>
     <link rel = "stylesheet" href = "style.css">
     <link rel="icon" type="image/png" href="pastel.png">
 </head>
@@ -12,17 +12,25 @@
     <form class="container" action="index.html">
 
         <header>
-            <h1>Cadastrar uma nova Senha</h1>
+            <h1>Cadastre Seu Usuário</h1>
         </header>
+
         <div class="input-box">
-            <input type="password" placeholder="Digite a Nova Senha">
+            <input placeholder="exemplo@teste.com" type="email">
+            <i class="bx bxs-user"></i>
+        </div>
+
+        <div class="input-box">
+            <input type="password" placeholder="Digite Uma Senha">
             <i class="bx bxs-lock-alt"></i>
         </div>
+
         <div class="input-box">
-            <input type="password" placeholder="Repita a Nova Senha">
+            <input type="password" placeholder="Repita a Senha">
             <i class="bx bxs-lock-alt"></i>
         </div>  
-        <button type="submit" class="login">Salvar Nova Senha</button>
+
+        <button type="submit" class="login">Salvar Senha</button>
         <p>
             <a href="index.html">Voltar ao Login</a>
         </p> 
@@ -30,7 +38,6 @@
     <footer>
             <a href="https://www.flaticon.com/br/icones-gratis/pastel" title="pastel ícones">Pastel ícones criados por Freepik - Flaticon</a>
     </footer>
-
     
 </body>
 </html>
